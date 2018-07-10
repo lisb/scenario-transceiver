@@ -1,0 +1,28 @@
+{
+  "name": "scenario-transceiver",
+  "version": "0.0.1",
+  "description": "daab scenario message receiver and sender library.",
+  "scripts": {
+    "test": "mocha",
+    "dep": "dependency-cruise -x '^node_modules' -T dot lib | dot -T svg > dependencygraph.svg"
+  },
+  "main": "lib/",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "hubot",
+    "daab",
+    "scenario"
+  ],
+  "author": "yoshihide.nabeyama",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "safe-regex": "^1.1.0"
+  },
+  "dependencies": {
+    "joi": "^13.4.0",
+    "lodash": "^4.17.10"
+  }
+}
