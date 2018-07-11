@@ -1,14 +1,17 @@
 {
   "name": "scenario-transceiver",
   "version": "0.0.1",
-  "description": "daab scenario message receiver and sender library.",
+  "description": "message receiver and sender library.",
   "scripts": {
-    "test": "mocha",
-    "dep": "dependency-cruise -x '^node_modules' -T dot lib | dot -T svg > dependencygraph.svg"
+    "test": "mocha"
   },
   "main": "lib/",
   "directories": {
     "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lisb/scenario-transceiver.git"
   },
   "keywords": [
     "hubot",
@@ -17,6 +20,10 @@
   ],
   "author": "yoshihide.nabeyama",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisb/scenario-transceiver/issues"
+  },
+  "homepage": "https://github.com/lisb/scenario-transceiver",
   "devDependencies": {
     "mocha": "^3.5.0",
     "safe-regex": "^1.1.0"
